@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Виктор — Telegram-боты и сайты</title>
+  <meta name="description" content="Портфолио Виктора: разработка Telegram-ботов, Mini App и сайтов.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Фоновые неоновые пятна -->
+  <div class="glow glow-1"></div>
+  <div class="glow glow-2"></div>
+
+  <!-- Шапка с навигацией -->
+  <header class="header">
+    <a href="#top" class="logo">&lt;Виктор/&gt;</a>
+    <nav class="nav">
+      <a href="#about">Обо мне</a>
+      <a href="#skills">Навыки</a>
+      <a href="#projects">Проекты</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- Главный экран -->
+    <section class="hero">
+      <p class="hero-tag">// привет, я</p>
+      <h1>Виктор</h1>
+      <p class="hero-role">Делаю <span id="typed" class="accent"></span><span class="cursor">|</span></p>
+      <p class="hero-text">Создаю Telegram-ботов, Mini App и сайты: от идеи и ТЗ до работающего продукта.</p>
+      <div class="hero-buttons">
+        <a class="btn btn-primary" href="https://t.me/gloxiniaa" target="_blank" rel="noopener">Написать мне</a>
+        <a class="btn btn-ghost" href="#projects">Смотреть проекты</a>
+      </div>
+    </section>
+
+    <!-- Обо мне -->
+    <section id="about" class="section reveal">
+      <h2><span class="num">01</span> Обо мне</h2>
+      <div class="about-grid">
+        <p>Я разработчик, который любит превращать задачи бизнеса в удобные инструменты. Пишу ботов для записи клиентов, приёма заказов и оплаты, делаю быстрые и аккуратные сайты.</p>
+        <div class="stats">
+          <div class="stat"><b data-count="3">0</b><span>проекта в портфолио</span></div>
+          <div class="stat"><b data-count="100">0</b><span>% адаптивная вёрстка</span></div>
+          <div class="stat"><b data-count="24">0</b><span>часа — ответ на сообщение</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Навыки -->
+    <section id="skills" class="section reveal">
+      <h2><span class="num">02</span> Навыки</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>🤖 Telegram-боты</h3>
+          <ul class="tags">
+            <li>Python</li><li>aiogram 3</li><li>FSM</li><li>SQLite</li><li>Платежи</li><li>Напоминания</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>📱 Mini App</h3>
+          <ul class="tags">
+            <li>Telegram WebApp</li><li>JavaScript</li><li>Корзина и заказы</li><li>Интеграция с ботом</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>🌐 Сайты</h3>
+          <ul class="tags">
+            <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Адаптив</li><li>Анимации</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>🛠 Инструменты</h3>
+          <ul class="tags">
+            <li>Git</li><li>VS Code</li><li>Obsidian</li><li>Claude Code</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- Проекты -->
+    <section id="projects" class="section reveal">
+      <h2><span class="num">03</span> Проекты</h2>
+      <div class="cards">
+        <article class="card project">
+          <span class="badge">Mini App</span>
+          <h3>Кофейня</h3>
+          <p>Меню, корзина и оформление заказа прямо внутри Telegram.</p>
+        </article>
+        <article class="card project">
+          <span class="badge">Бот</span>
+          <h3>Бот для салона</h3>
+          <p>Онлайн-запись клиентов к мастерам и автоматические напоминания.</p>
+        </article>
+        <article class="card project">
+          <span class="badge">Сайт</span>
+          <h3>Сайт-визитка</h3>
+          <p>Лёгкая адаптивная страница для малого бизнеса.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contacts" class="section reveal contacts">
+      <h2><span class="num">04</span> Контакты</h2>
+      <p>Есть идея или задача? Напиши мне в Telegram, обсудим.</p>
+      <a class="btn btn-primary big" href="https://t.me/gloxiniaa" target="_blank" rel="noopener">@gloxiniaa</a>
+    </section>
+  </main>
+
+  <footer class="footer">© <span id="year"></span> Виктор. Сделано с любовью к коду.</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
